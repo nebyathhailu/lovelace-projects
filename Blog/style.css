@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    height:52vh;
+}
+.intro-text{
+    width:50%;
+    background-color: black;
+    color:#04C4D9;
+    font-size: 40px;
+    align-content: center;
+    justify-items: center;
+}
+button{
+    padding: 1.5em 8em;
+    border-radius: 50px;
+    border:none;
+    margin-top: 10%;
+    a{
+        text-decoration: none;
+        color:#cbaef2;
+        font-weight: bolder;
+        font-size: 25px;
+    }
+}
+.purple-bg{
+    width:30%;
+    background-color: #cbaef2;
+    align-content: center;
+    justify-items: center;
+    img{
+        display: block;
+        width:500px;
+        border-radius: 20px;
+    }
+}
+.violet-bg{
+    background-color: #cbaef2;
+    align-content: center;
+    justify-items: center;
+    width:20%;
+    img{
+        display: block;
+        width:300px;
+        height:440px;
+        border-radius: 20px;
+    }
+}
+
+.main{
+    display:flex;
+    justify-content: space-evenly;
+    font-size: 23px;
+    height:48vh;
+}
+.left-paragraph, .right-paragraph{
+    width:50%;
+    padding: 2%;
+    line-height: 1.4;
+}
+.left-paragraph{
+    border:10px solid #cbaef2;
+    overflow: auto;
+}
+.right-paragraph{
+        border:10px solid #000000;
+        margin-top: -6%;
+        background-color: white;
+        border:10px solid #cbaef2;
+        overflow: auto;
+        border-radius: 20px;
+
+        h3{
+            color:#04C4D9;
+            font-family: kugile;
+            text-align: center;
+            padding: 5%;
+        }
+}
+.b-mark{
+    background-color: #cbaef2;
+}
+.q-mark{
+    background-color: #cbaef2;
+}
+::-webkit-scrollbar{
+    display:none;
+}
+@font-face {
+    font-family: 'kugile';
+    src: url('Fonts/Kugile_Demo.ttf');
+}
