@@ -28,27 +28,24 @@ button{
         font-size: 25px;
     }
 }
+.owner{
+    color:white;
+    font-size: 25px;
+    margin-top: 5%;
+}
 .purple-bg{
-    width:30%;
+    width:50%;
+    padding-left: 12%;
     background-color: #cbaef2;
     align-content: center;
     justify-items: center;
     img{
         display: block;
-        width:500px;
+        max-width:80%;
         border-radius: 20px;
     }
-}
-.violet-bg{
-    background-color: #cbaef2;
-    align-content: center;
-    justify-items: center;
-    width:20%;
-    img{
-        display: block;
-        width:300px;
-        height:440px;
-        border-radius: 20px;
+    img:hover{
+        transform: scale(1.1);
     }
 }
 
@@ -73,8 +70,8 @@ button{
         background-color: white;
         border:10px solid #cbaef2;
         overflow: auto;
-        border-radius: 20px;
-
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
         h3{
             color:#04C4D9;
             font-family: kugile;
@@ -82,12 +79,16 @@ button{
             padding: 5%;
         }
 }
-.b-mark{
+footer{
+    padding: 0.5%;
+    background-color: #cbaef2;
+    text-align: center;
+    font-family: kugile;
+}
+mark{
     background-color: #cbaef2;
 }
-.q-mark{
-    background-color: #cbaef2;
-}
+
 ::-webkit-scrollbar{
     display:none;
 }
@@ -95,3 +96,45 @@ button{
     font-family: 'kugile';
     src: url('Fonts/Kugile_Demo.ttf');
 }
+
+@media only screen and (max-width:600px){
+    .header{
+        height:auto;
+        flex-direction: column;
+    }
+    .intro-text{
+        padding: 20px;
+        h1{
+            font-size: 35px;
+        }
+        button{
+            padding:0.6em 4em;
+        }
+    }
+    .owner{
+        font-size: 18px;
+    }
+    .intro-text, .purple-bg{
+        width:100%;
+    }
+    .purple-bg{
+        padding-top:20px;
+        padding-bottom:20px;
+
+    }
+    .main{
+        height: auto;
+        flex-direction: column;
+    }
+    .left-paragraph, .right-paragraph{
+        width:100%;
+    }
+    .left-paragraph{
+        border:5px solid #cbaef2;
+    }
+    .right-paragraph{
+        margin-top: 5%;
+        border: none;
+    }
+}
+
