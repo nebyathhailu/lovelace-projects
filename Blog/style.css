@@ -15,6 +15,9 @@
     font-size: 40px;
     align-content: center;
     justify-items: center;
+    h1{
+        text-align:center;
+    }
 }
 button{
     padding: 1.5em 8em;
@@ -42,6 +45,7 @@ button{
     img{
         display: block;
         max-width:80%;
+        max-height:100%;
         border-radius: 20px;
     }
     img:hover{
@@ -80,7 +84,7 @@ button{
         }
 }
 footer{
-    padding: 0.5%;
+    padding:0.5%;
     background-color: #cbaef2;
     text-align: center;
     font-family: kugile;
@@ -97,7 +101,7 @@ mark{
     src: url('Fonts/Kugile_Demo.ttf');
 }
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width:900px){
     .header{
         height:auto;
         flex-direction: column;
@@ -131,10 +135,17 @@ mark{
     }
     .left-paragraph{
         border:5px solid #cbaef2;
-    }
-    .right-paragraph{
+   .right-paragraph{
         margin-top: 5%;
         border: none;
     }
 }
+}
 
+@media only screen and (min-width:905px) and (max-width:1000px){
+    .intro-text{
+        h1{
+            font-size: 50px;
+        }
+    }
+}
