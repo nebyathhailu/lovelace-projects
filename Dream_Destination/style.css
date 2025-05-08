@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+#container{
+    display:grid;
+}
+header{
+    background-image: url('https://catalonia.com/documents/176177/179111/catalonia-news-header.jpg/6a5ffeb0-0021-324e-8f04-348142436c73?t=1684402223214');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:aliceblue;
+    position: sticky;
+    top: 0;
+}
+a
+{
+    text-decoration: none;
+    color:rgba(243, 243, 157, 0.836);
+    font-size: 30px;
+    font-weight: bold;
+}
+header ul 
+{
+    list-style-type: none;
+    display: inline-flex;
+    padding: 20px;
+    margin: auto;
+}
+header li
+{
+    margin:0 100px;
+}
+.image{
+    display:inline;
+}
+img
+{
+    width:500px;
+    height:500px;
+}
+.footer
+{
+    display:inline-flex;
+    margin:auto;
+    background-color: violet;
+}
+.footer p 
+{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    margin-top: 25px;
+    margin-right: 0px;
+    font-weight:bold ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footer ul{
+    margin-left:0px ;
+    list-style-type: none;
+}
+.footer li
+{
+    margin: 25px;
+}
+svg{
+    display: inline-flex;
+}
+
+line{
+    stroke:black;
+    stroke-width: 2px;
+
+}
