@@ -146,7 +146,7 @@ mark{
 }
 }
 
-@media only screen and (min-width:905px) and (max-width:1050px){
+@media only screen and (min-width:905px) and (max-width:1300px){
     .intro-text{
         h1{
             font-size: 50px;
