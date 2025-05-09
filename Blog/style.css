@@ -120,8 +120,12 @@ mark{
         width:100%;
     }
     .purple-bg{
-        padding-top:20px;
-        padding-bottom:20px;
+        margin: 3% 0;
+        width: 90%;
+        justify-self: center;
+        img{
+            max-width: 300px;
+        }
 
     }
     .main{
@@ -133,10 +137,12 @@ mark{
     }
     .left-paragraph{
         border:5px solid #cbaef2;
+        margin-top: 10%;
+    }
    .right-paragraph{
         margin-top: 5%;
         border: none;
-    }
+   
 }
 }
 
