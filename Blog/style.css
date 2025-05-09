@@ -146,10 +146,13 @@ mark{
 }
 }
 
-@media only screen and (min-width:905px) and (max-width:1000px){
+@media only screen and (min-width:905px) and (max-width:1050px){
     .intro-text{
         h1{
             font-size: 50px;
         }
     }
-}
+    .purple-bg{
+        margin-top: -2%;
+    }
+ }
