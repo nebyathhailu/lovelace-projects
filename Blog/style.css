@@ -20,16 +20,17 @@ body{
     }
 }
 button{
-    padding: 1.5em 8em;
+    padding: 1.2em 5em;
     border-radius: 50px;
     border:none;
-    margin-top: 10%;
+    margin-top: 2%;
     background-color: #cbaef2;
+    display: block;
     a{
         text-decoration: none;
         color:white;
         font-weight: bolder;
-        font-size: 25px;
+        font-size: 20px;
     }
 }
 .owner{
